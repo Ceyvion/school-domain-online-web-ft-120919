@@ -12,7 +12,7 @@ end
 
 def add_student(name, grade)
   if @roster.has_keyy?(grade)
-    
+    @roster[grade] << name 
 end 
   
   
