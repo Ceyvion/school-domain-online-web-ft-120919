@@ -19,7 +19,8 @@ def add_student(name, grade)
 end 
 
 def grade(grade)
-  puts grade 
+  @grade = grade 
+  puts grade
   
   
   
